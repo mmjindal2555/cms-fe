@@ -179,6 +179,7 @@ function AdminSection(props: AdminSectionProps) {
                size="small"
                placeholder='Enter First Name'
                required={true}
+               autoComplete='off'
                sx={{ backgroundColor: '#fff', width: '280px' }}
             />
              <TextField
@@ -191,6 +192,7 @@ function AdminSection(props: AdminSectionProps) {
                size="small"
                placeholder='Enter Last Name'
                required={true}
+               autoComplete='off'
                sx={{ backgroundColor: '#fff', width: '280px' }}
             />
             <TextField
@@ -203,6 +205,7 @@ function AdminSection(props: AdminSectionProps) {
                size="small"
                placeholder='Enter Role'
                required={true}
+               autoComplete='off'
                sx={{ backgroundColor: '#fff', width: '280px' }}
             />
 

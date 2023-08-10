@@ -272,6 +272,7 @@ const ServiceOwnerSection: FC<ServiceOwnerSectionProps> = (props) => {
                variant="outlined"
                label="Service Contract Number"
                size="small"
+               autoComplete='off'
                placeholder='Enter Service Contract Number'
                sx={{ backgroundColor: '#fff', width: '280px'}}
             />}
@@ -283,6 +284,7 @@ const ServiceOwnerSection: FC<ServiceOwnerSectionProps> = (props) => {
                variant="outlined"
                label="Vendor ID"
                size="small"
+               autoComplete='off'
                placeholder='Enter Vendor ID'
                sx={{ backgroundColor: '#fff', width: '280px'}}
             />}
@@ -295,6 +297,7 @@ const ServiceOwnerSection: FC<ServiceOwnerSectionProps> = (props) => {
                variant="outlined"
                label="New Contract ID"
                size="small"
+               autoComplete='off'
                placeholder='Enter New Contract ID'
                sx={{ backgroundColor: '#fff', width: '280px'}}
             />}
@@ -309,6 +312,7 @@ const ServiceOwnerSection: FC<ServiceOwnerSectionProps> = (props) => {
                size="small"
                placeholder='Enter Description of the service contract'
                required={true}
+               autoComplete='off'
                sx={{ backgroundColor: '#fff', width: '280px' }}
             />}
             <Button
